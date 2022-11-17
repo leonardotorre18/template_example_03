@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default function Footer() {
   return (
@@ -10,8 +10,10 @@ export default function Footer() {
           <li>Blog</li>
           <li>Contacto</li>
         </ul>
-        <p className="text-center m-3">Hecho por LeonardoTorre</p>
+        <p className="text-center m-3">
+          Hecho por <span className="font-bold">LeonardoTorre</span>
+        </p>
       </div>
     </footer>
-  )
+  );
 }
